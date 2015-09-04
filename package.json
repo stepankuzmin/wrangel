@@ -1,0 +1,37 @@
+{
+  "name": "wrangel",
+  "version": "0.0.1",
+  "description": "Wrangel helps wrap GeoJSON around 180 meridian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -d wrangel.js --standalone wrangel > index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stepankuzmin/wrangel.git"
+  },
+  "keywords": [
+    "geojson",
+    "180",
+    "meridian",
+    "antimeridian",
+    "dateline"
+  ],
+  "author": "Stepan Kuzmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepankuzmin/wrangel/issues"
+  },
+  "homepage": "https://github.com/stepankuzmin/wrangel",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

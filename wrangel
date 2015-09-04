@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var wrangel = require('./'),
+    fs = require('fs');
+
+process.stdout.write(JSON.stringify(wrangel(process.argv.slice(2).map(function(n) {
+    return JSON.parse(fs.readFileSync(n));
+})), null, 2));
