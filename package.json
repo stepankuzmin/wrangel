@@ -25,6 +25,13 @@
     "url": "https://github.com/stepankuzmin/wrangel/issues"
   },
   "homepage": "https://github.com/stepankuzmin/wrangel",
+  "dependencies": {
+    "clone": "^1.0.2",
+    "geojson-normalize": "0.0.1",
+    "turf-featurecollection": "^1.0.1",
+    "turf-merge": "^1.0.2",
+    "turf-polygon": "^1.0.3"
+  },
   "devDependencies": {
     "babelify": "^6.3.0",
     "browserify": "^11.0.1"
