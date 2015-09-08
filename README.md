@@ -1,7 +1,8 @@
 # Wrangel
 
-[![Build Status](https://secure.travis-ci.org/StepanKuzmin/wrangel.svg)](http://travis-ci.org/StepanKuzmin/wrangel)
-[![Dependencies](https://david-dm.org/StepanKuzmin/wrangel.svg)](https://david-dm.org/StepanKuzmin/wrangel)
+[![Build Status](https://travis-ci.org/StepanKuzmin/wrangel.svg?branch=master)](https://travis-ci.org/StepanKuzmin/wrangel)
+[![Dependency Status](https://david-dm.org/stepankuzmin/wrangel.svg)](https://david-dm.org/stepankuzmin/wrangel)
+[![devDependency Status](https://david-dm.org/stepankuzmin/wrangel/dev-status.svg)](https://david-dm.org/stepankuzmin/wrangel#info=devDependencies)
 
 Wrangel helps wrap GeoJSON around 180 meridian.
 
