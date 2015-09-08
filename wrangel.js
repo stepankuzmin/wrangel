@@ -1,7 +1,6 @@
 import clone from 'clone'
 import merge from 'turf-merge'
 import polygon from 'turf-polygon'
-import intersect from 'turf-intersect'
 import normalize from 'geojson-normalize'
 import collection from 'turf-featurecollection'
 
@@ -41,10 +40,6 @@ var wrapFeature = function (feature) {
   var wrappedCoordinates = wrapper(wrappedFeature.geometry.coordinates)
   wrappedFeature.geometry.coordinates = wrappedCoordinates
   return wrappedFeature
-}
-
-var intersects = function (polygon1, polygons) {
-  return polygons.some((polygon2) => !!intersect(polygon1, polygon2))
 }
 
 var wrap = function (feature) {

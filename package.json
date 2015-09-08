@@ -4,7 +4,7 @@
   "description": "Wrangel helps wrap GeoJSON around 180 meridian",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape test.js",
     "build": "browserify -d wrangel.js --standalone wrangel > index.js",
     "prepublish": "npm run build"
   },
@@ -35,7 +35,8 @@
   },
   "devDependencies": {
     "babelify": "^6.3.0",
-    "browserify": "^11.0.1"
+    "browserify": "^11.0.1",
+    "tape": "^4.2.0"
   },
   "browserify": {
     "transform": [
