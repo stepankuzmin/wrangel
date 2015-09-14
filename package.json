@@ -1,6 +1,6 @@
 {
   "name": "wrangel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrangel helps wrap GeoJSON around 180 meridian",
   "main": "index.js",
   "scripts": {
@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/stepankuzmin/wrangel",
   "dependencies": {
-    "clone": "^1.0.2",
     "geojson-normalize": "0.0.1",
     "turf-featurecollection": "^1.0.1",
     "turf-intersect": "^1.4.2",
     "turf-merge": "^1.0.2",
-    "turf-polygon": "^1.0.3"
+    "turf-polygon": "^1.0.3",
+    "turf-shift-longitude": "0.0.1"
   },
   "devDependencies": {
     "babelify": "^6.3.0",
