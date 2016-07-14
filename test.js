@@ -1,5 +1,5 @@
 var test = require('tape');
-var wrangel = require('./');
+var wrangel = require('./src/index.js');
 
 test('wrangel', function (t) {
 
