@@ -4,7 +4,7 @@
   "description": "Wrangel helps wrap GeoJSON around 180 meridian",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js",
+    "test": "tape test.js"
   },
   "bin": {
     "wrangel": "./index.js"
